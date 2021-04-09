@@ -5,6 +5,24 @@
 html {
 	min-width:940px;
 }
+.myButton:hover{
+  padding: 15px 25px;
+  font-size: 26px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 9px #FFF;
+}
+
+.myButton:active{
+	background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 body {
 	background:url(../images/tail-top.gif) repeat-x left top #fff;
 	font-family:Tahoma, Arial, helvetica, sans-serif;
